@@ -84,7 +84,7 @@ Fifteen stages, four acts. Check them off as they land.
 
 | | Stage | What I build | Why it matters |
 |-|-------|--------------|----------------|
-| [ ] | **00** · [Setup & tensor fluency](stages/00_setup/) | Env check, tensor/broadcasting exercises, cross-entropy by hand | Every bug for the next 3 months will be a shape bug. Fluency here is not optional. |
+| [ ] | **00** · [Setup & tensor fluency](stages/00_setup/) | [PyTorch primer](stages/00_setup/pytorch_primer.md), tensor/broadcasting drills, cross-entropy by hand | Every bug for the next 3 months will be a shape bug. Fluency here is not optional. |
 | [ ] | **01** · [Autograd from scratch](stages/01_autograd/) | `micrograd/` — a scalar `Value` class with `.backward()`, then an MLP trained on it | Backprop stops being magic. This is the single highest-leverage stage in the repo. |
 | [ ] | **02** · [Tokenization](stages/02_tokenization/) | Char-level codec, then a real BPE trainer + encoder/decoder | Text → integers. Every weird LLM behaviour (spelling, arithmetic, non-English) traces back here. |
 | [ ] | **03** · [Bigram language model](stages/03_bigram/) | The simplest possible neural LM + the full training loop skeleton | Establishes the scaffolding — data batching, loss, eval, sampling — that every later stage reuses. |

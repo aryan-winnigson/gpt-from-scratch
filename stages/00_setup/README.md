@@ -4,6 +4,10 @@
 > **You write:** `stages/00_setup/tensor_drills.py`
 > **You pass:** `uv run pytest tests/test_00_setup.py -v`
 
+> **Never used PyTorch?** Start with **[pytorch_primer.md](pytorch_primer.md)** — 45
+> minutes with a REPL open, covering exactly the ~20 functions these drills need and
+> nothing else. Do its "predict, then run" section; it's the part that actually works.
+
 ---
 
 ## Why this stage exists
